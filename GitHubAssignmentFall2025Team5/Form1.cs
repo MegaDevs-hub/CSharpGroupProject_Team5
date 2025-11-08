@@ -13,12 +13,12 @@ namespace GitHubAssignmentFall2025Team5
             InitializeComponent();
         }
 
-        private void FToCButton_Click(object sender, EventArgs e) // Converts Fahrenheit to Celcius.
+        private void fToCButton_Click(object sender, EventArgs e) // Converts Fahrenheit to Celcius.
         {
-            if (double.TryParse(InputTextBox.Text, out double fahrenheit)) // Tests the input textbox for a double value and passes the value if true.
+            if (double.TryParse(inputTextBox.Text, out double fahrenheit)) // Tests the input textbox for a double value and passes the value if true.
             {
                 double celcius = (fahrenheit - 32) * (5.0 / 9.0); // Fahrenheit to Celcius expression.
-                OutputLabel.Text = celcius.ToString(); // Outputs the Fahrenheit to Celcius conversion result to the output label.
+                outputLabel.Text = celcius.ToString(); // Outputs the Fahrenheit to Celcius conversion result to the output label.
             }
             else
             {
@@ -26,12 +26,12 @@ namespace GitHubAssignmentFall2025Team5
             }
         }
 
-        private void CToFButton_Click(object sender, EventArgs e) // Converts Celcius to Fahrenheit.
+        private void cToFButton_Click(object sender, EventArgs e) // Converts Celcius to Fahrenheit.
         {
-            if (double.TryParse(InputTextBox.Text, out double celcius)) // Tests the input textbox for a double value and passes the value if true.
+            if (double.TryParse(inputTextBox.Text, out double celcius)) // Tests the input textbox for a double value and passes the value if true.
             {
                 double fahrenheit = (celcius * 9.0 / 5.0) + 32; // Celcius to Fahrenheit expression.
-                OutputLabel.Text = fahrenheit.ToString(); // Outputs the Fahrenheit to Celcius conversion result to the output label.
+                outputLabel.Text = fahrenheit.ToString(); // Outputs the Fahrenheit to Celcius conversion result to the output label.
             }
             else
             {
@@ -39,10 +39,15 @@ namespace GitHubAssignmentFall2025Team5
             }
         }
 
-        private void ClearButton_Click(object sender, EventArgs e) // Clears the input textbox and output label.
+        private void clearButton_Click(object sender, EventArgs e) // Clears the input textbox and output label.
         {
-            InputTextBox.Clear(); // Clears the input textbox.
-            OutputLabel.Text = string.Empty; // Clears the output label.
+            inputTextBox.Clear(); // Clears the input textbox.
+            outputLabel.Text = string.Empty; // Clears the output label.
+        }
+
+        private void btnAlex_Click(object sender, EventArgs e)
+        {
+            nameListBox.Items.Add("The Alex W button was clicked");
         }
     }
 }
