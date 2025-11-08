@@ -35,6 +35,8 @@
             clearButton = new Button();
             btnAlex = new Button();
             nameListBox = new ListBox();
+            btnAiden = new Button();
+            listBox1 = new ListBox();
             SuspendLayout();
             // 
             // inputTextBox
@@ -103,11 +105,32 @@
             nameListBox.Size = new Size(230, 19);
             nameListBox.TabIndex = 6;
             // 
+            // btnAiden
+            // 
+            btnAiden.Location = new Point(12, 151);
+            btnAiden.Name = "btnAiden";
+            btnAiden.Size = new Size(104, 23);
+            btnAiden.TabIndex = 5;
+            btnAiden.Text = "Aiden R";
+            btnAiden.UseVisualStyleBackColor = true;
+            btnAiden.Click += btnAiden_Click;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(122, 151);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(120, 109);
+            listBox1.TabIndex = 6;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(254, 269);
+            Controls.Add(listBox1);
+            Controls.Add(btnAiden);
             Controls.Add(nameListBox);
             Controls.Add(btnAlex);
             Controls.Add(clearButton);
@@ -130,5 +153,7 @@
         private Button clearButton;
         private Button btnAlex;
         private ListBox nameListBox;
+        private Button btnAiden;
+        private ListBox listBox1;
     }
 }
