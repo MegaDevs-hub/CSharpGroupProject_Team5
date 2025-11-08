@@ -45,9 +45,9 @@ namespace GitHubAssignmentFall2025Team5
             outputLabel.Text = string.Empty; // Clears the output label.
         }
 
-        private void btnAlex_Click(object sender, EventArgs e)
+        private void btnAlex_Click(object sender, EventArgs e) // Displays a message in a listbox.
         {
-            nameListBox.Items.Add("The Alex W button was clicked");
+            nameListBox.Items.Add("The Alex W button was clicked"); // Adds a message to a listbox.
         }
     }
 }
