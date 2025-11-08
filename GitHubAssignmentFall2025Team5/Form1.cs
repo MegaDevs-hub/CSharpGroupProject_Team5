@@ -44,5 +44,11 @@ namespace GitHubAssignmentFall2025Team5
             InputTextBox.Clear(); // Clears the input textbox.
             OutputLabel.Text = string.Empty; // Clears the output label.
         }
+
+        private void btnAiden_Click(object sender, EventArgs e)
+        {
+            // i hate typing out my name so let's at least minimize how many times it has to be done
+            listBox1.Items.Add("The " + ((Button)sender).Text + " button was clicked");
+        }
     }
 }
