@@ -28,70 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            InputTextBox = new TextBox();
-            FToCButton = new Button();
-            CToFButton = new Button();
-            OutputLabel = new Label();
-            ClearButton = new Button();
+            inputTextBox = new TextBox();
+            fToCButton = new Button();
+            cToFButton = new Button();
+            outputLabel = new Label();
+            clearButton = new Button();
+            btnAlex = new Button();
+            nameListBox = new ListBox();
             SuspendLayout();
             // 
-            // InputTextBox
+            // inputTextBox
             // 
-            InputTextBox.Location = new Point(12, 12);
-            InputTextBox.Name = "InputTextBox";
-            InputTextBox.Size = new Size(230, 23);
-            InputTextBox.TabIndex = 0;
-            InputTextBox.Text = "98";
-            InputTextBox.TextAlign = HorizontalAlignment.Center;
+            inputTextBox.Location = new Point(12, 12);
+            inputTextBox.Name = "inputTextBox";
+            inputTextBox.Size = new Size(230, 23);
+            inputTextBox.TabIndex = 0;
+            inputTextBox.Text = "98";
+            inputTextBox.TextAlign = HorizontalAlignment.Center;
             // 
-            // FToCButton
+            // fToCButton
             // 
-            FToCButton.Location = new Point(12, 41);
-            FToCButton.Name = "FToCButton";
-            FToCButton.Size = new Size(230, 23);
-            FToCButton.TabIndex = 1;
-            FToCButton.Text = "°F -> °C";
-            FToCButton.UseVisualStyleBackColor = true;
-            FToCButton.Click += FToCButton_Click;
+            fToCButton.Location = new Point(12, 41);
+            fToCButton.Name = "fToCButton";
+            fToCButton.Size = new Size(230, 23);
+            fToCButton.TabIndex = 1;
+            fToCButton.Text = "°F -> °C";
+            fToCButton.UseVisualStyleBackColor = true;
+            fToCButton.Click += fToCButton_Click;
             // 
-            // CToFButton
+            // cToFButton
             // 
-            CToFButton.Location = new Point(12, 70);
-            CToFButton.Name = "CToFButton";
-            CToFButton.Size = new Size(230, 23);
-            CToFButton.TabIndex = 2;
-            CToFButton.Text = "°C -> °F";
-            CToFButton.UseVisualStyleBackColor = true;
-            CToFButton.Click += CToFButton_Click;
+            cToFButton.Location = new Point(12, 70);
+            cToFButton.Name = "cToFButton";
+            cToFButton.Size = new Size(230, 23);
+            cToFButton.TabIndex = 2;
+            cToFButton.Text = "°C -> °F";
+            cToFButton.UseVisualStyleBackColor = true;
+            cToFButton.Click += cToFButton_Click;
             // 
-            // OutputLabel
+            // outputLabel
             // 
-            OutputLabel.Location = new Point(12, 96);
-            OutputLabel.Name = "OutputLabel";
-            OutputLabel.Size = new Size(230, 23);
-            OutputLabel.TabIndex = 3;
-            OutputLabel.TextAlign = ContentAlignment.MiddleCenter;
+            outputLabel.Location = new Point(12, 96);
+            outputLabel.Name = "outputLabel";
+            outputLabel.Size = new Size(230, 23);
+            outputLabel.TabIndex = 3;
+            outputLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // ClearButton
+            // clearButton
             // 
-            ClearButton.Location = new Point(12, 122);
-            ClearButton.Name = "ClearButton";
-            ClearButton.Size = new Size(230, 23);
-            ClearButton.TabIndex = 4;
-            ClearButton.Text = "Clear";
-            ClearButton.UseVisualStyleBackColor = true;
-            ClearButton.Click += ClearButton_Click;
+            clearButton.Location = new Point(12, 122);
+            clearButton.Name = "clearButton";
+            clearButton.Size = new Size(230, 23);
+            clearButton.TabIndex = 4;
+            clearButton.Text = "Clear";
+            clearButton.UseVisualStyleBackColor = true;
+            clearButton.Click += clearButton_Click;
+            // 
+            // btnAlex
+            // 
+            btnAlex.Location = new Point(12, 151);
+            btnAlex.Name = "btnAlex";
+            btnAlex.Size = new Size(230, 23);
+            btnAlex.TabIndex = 5;
+            btnAlex.Text = "Alex W";
+            btnAlex.UseVisualStyleBackColor = true;
+            btnAlex.Click += btnAlex_Click;
+            // 
+            // nameListBox
+            // 
+            nameListBox.FormattingEnabled = true;
+            nameListBox.ItemHeight = 15;
+            nameListBox.Location = new Point(12, 238);
+            nameListBox.Name = "nameListBox";
+            nameListBox.Size = new Size(230, 19);
+            nameListBox.TabIndex = 6;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(254, 269);
-            Controls.Add(ClearButton);
-            Controls.Add(OutputLabel);
-            Controls.Add(CToFButton);
-            Controls.Add(FToCButton);
-            Controls.Add(InputTextBox);
+            Controls.Add(nameListBox);
+            Controls.Add(btnAlex);
+            Controls.Add(clearButton);
+            Controls.Add(outputLabel);
+            Controls.Add(cToFButton);
+            Controls.Add(fToCButton);
+            Controls.Add(inputTextBox);
             Name = "Form1";
             Text = "°F <-> °C";
             ResumeLayout(false);
@@ -100,10 +123,12 @@
 
         #endregion
 
-        private TextBox InputTextBox;
-        private Button FToCButton;
-        private Button CToFButton;
-        private Label OutputLabel;
-        private Button ClearButton;
+        private TextBox inputTextBox;
+        private Button fToCButton;
+        private Button cToFButton;
+        private Label outputLabel;
+        private Button clearButton;
+        private Button btnAlex;
+        private ListBox nameListBox;
     }
 }
