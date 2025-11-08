@@ -1,5 +1,5 @@
 // File: GitHubAssignmentFall2025Team5
-// Developer: pitchert1, RooneyA3, MegaDevs
+// Developer: pitchert1, RooneyA3, waupoosa1
 // Written: 11/06/2025
 
 // Collaborate with your team using GitHub while building a small C# .NET project in Visual Studio
