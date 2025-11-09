@@ -88,7 +88,7 @@
             // 
             // btnAlex
             // 
-            btnAlex.Location = new Point(12, 151);
+            btnAlex.Location = new Point(12, 205);
             btnAlex.Name = "btnAlex";
             btnAlex.Size = new Size(230, 23);
             btnAlex.TabIndex = 5;
@@ -100,7 +100,7 @@
             // 
             nameListBox.FormattingEnabled = true;
             nameListBox.ItemHeight = 15;
-            nameListBox.Location = new Point(12, 238);
+            nameListBox.Location = new Point(12, 234);
             nameListBox.Name = "nameListBox";
             nameListBox.Size = new Size(230, 19);
             nameListBox.TabIndex = 6;
@@ -109,7 +109,7 @@
             // 
             btnAiden.Location = new Point(12, 151);
             btnAiden.Name = "btnAiden";
-            btnAiden.Size = new Size(104, 23);
+            btnAiden.Size = new Size(230, 23);
             btnAiden.TabIndex = 5;
             btnAiden.Text = "Aiden R";
             btnAiden.UseVisualStyleBackColor = true;
@@ -119,16 +119,16 @@
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(122, 151);
+            listBox1.Location = new Point(12, 180);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(120, 109);
+            listBox1.Size = new Size(230, 19);
             listBox1.TabIndex = 6;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(254, 269);
+            ClientSize = new Size(254, 265);
             Controls.Add(listBox1);
             Controls.Add(btnAiden);
             Controls.Add(nameListBox);
