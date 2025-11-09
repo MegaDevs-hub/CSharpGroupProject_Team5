@@ -55,5 +55,13 @@ namespace GitHubAssignmentFall2025Team5
             // i hate typing out my name so let's at least minimize how many times it has to be done
             listBox1.Items.Add("The " + ((Button)sender).Text + " button was clicked");
         }
+
+        private void tylerButton_Click(object sender, EventArgs e)
+        {
+            String name; //  declare varible to hold string text
+                         
+            name = "The Tyler P button was clicked!"; //  intialize variable with desired message
+            tylerListBox.Items.Add(name); // add string to listbox to display text
+        }
     }
 }
