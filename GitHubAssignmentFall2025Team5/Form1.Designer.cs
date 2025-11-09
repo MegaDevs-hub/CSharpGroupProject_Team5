@@ -43,7 +43,7 @@
             // 
             inputTextBox.Location = new Point(12, 12);
             inputTextBox.Name = "inputTextBox";
-            inputTextBox.Size = new Size(230, 23);
+            inputTextBox.Size = new Size(227, 23);
             inputTextBox.TabIndex = 0;
             inputTextBox.Text = "98";
             inputTextBox.TextAlign = HorizontalAlignment.Center;
@@ -52,7 +52,7 @@
             // 
             fToCButton.Location = new Point(12, 41);
             fToCButton.Name = "fToCButton";
-            fToCButton.Size = new Size(230, 23);
+            fToCButton.Size = new Size(227, 23);
             fToCButton.TabIndex = 1;
             fToCButton.Text = "°F -> °C";
             fToCButton.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@
             // 
             cToFButton.Location = new Point(12, 70);
             cToFButton.Name = "cToFButton";
-            cToFButton.Size = new Size(230, 23);
+            cToFButton.Size = new Size(227, 23);
             cToFButton.TabIndex = 2;
             cToFButton.Text = "°C -> °F";
             cToFButton.UseVisualStyleBackColor = true;
@@ -72,7 +72,7 @@
             // 
             outputLabel.Location = new Point(12, 96);
             outputLabel.Name = "outputLabel";
-            outputLabel.Size = new Size(230, 23);
+            outputLabel.Size = new Size(227, 23);
             outputLabel.TabIndex = 3;
             outputLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -80,7 +80,7 @@
             // 
             clearButton.Location = new Point(12, 122);
             clearButton.Name = "clearButton";
-            clearButton.Size = new Size(230, 23);
+            clearButton.Size = new Size(227, 23);
             clearButton.TabIndex = 4;
             clearButton.Text = "Clear";
             clearButton.UseVisualStyleBackColor = true;
@@ -90,7 +90,7 @@
             // 
             btnAlex.Location = new Point(12, 205);
             btnAlex.Name = "btnAlex";
-            btnAlex.Size = new Size(230, 23);
+            btnAlex.Size = new Size(227, 23);
             btnAlex.TabIndex = 5;
             btnAlex.Text = "Alex W";
             btnAlex.UseVisualStyleBackColor = true;
@@ -102,14 +102,14 @@
             nameListBox.ItemHeight = 15;
             nameListBox.Location = new Point(12, 234);
             nameListBox.Name = "nameListBox";
-            nameListBox.Size = new Size(230, 19);
+            nameListBox.Size = new Size(227, 19);
             nameListBox.TabIndex = 6;
             // 
             // btnAiden
             // 
             btnAiden.Location = new Point(12, 151);
             btnAiden.Name = "btnAiden";
-            btnAiden.Size = new Size(230, 23);
+            btnAiden.Size = new Size(227, 23);
             btnAiden.TabIndex = 5;
             btnAiden.Text = "Aiden R";
             btnAiden.UseVisualStyleBackColor = true;
@@ -121,14 +121,14 @@
             listBox1.ItemHeight = 15;
             listBox1.Location = new Point(12, 180);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(230, 19);
+            listBox1.Size = new Size(227, 19);
             listBox1.TabIndex = 6;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(254, 265);
+            ClientSize = new Size(251, 265);
             Controls.Add(listBox1);
             Controls.Add(btnAiden);
             Controls.Add(nameListBox);
