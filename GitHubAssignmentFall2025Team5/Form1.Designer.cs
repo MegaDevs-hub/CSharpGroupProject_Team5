@@ -37,6 +37,8 @@
             nameListBox = new ListBox();
             btnAiden = new Button();
             listBox1 = new ListBox();
+            tylerButton = new Button();
+            tylerListBox = new ListBox();
             SuspendLayout();
             // 
             // inputTextBox
@@ -124,11 +126,32 @@
             listBox1.Size = new Size(227, 19);
             listBox1.TabIndex = 6;
             // 
+            // tylerButton
+            // 
+            tylerButton.Location = new Point(12, 258);
+            tylerButton.Name = "tylerButton";
+            tylerButton.Size = new Size(227, 23);
+            tylerButton.TabIndex = 7;
+            tylerButton.Text = "Tyler P";
+            tylerButton.UseVisualStyleBackColor = true;
+            tylerButton.Click += tylerButton_Click;
+            // 
+            // tylerListBox
+            // 
+            tylerListBox.FormattingEnabled = true;
+            tylerListBox.ItemHeight = 15;
+            tylerListBox.Location = new Point(13, 285);
+            tylerListBox.Name = "tylerListBox";
+            tylerListBox.Size = new Size(227, 19);
+            tylerListBox.TabIndex = 8;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(251, 265);
+            ClientSize = new Size(475, 595);
+            Controls.Add(tylerListBox);
+            Controls.Add(tylerButton);
             Controls.Add(listBox1);
             Controls.Add(btnAiden);
             Controls.Add(nameListBox);
@@ -155,5 +178,7 @@
         private ListBox nameListBox;
         private Button btnAiden;
         private ListBox listBox1;
+        private Button tylerButton;
+        private ListBox tylerListBox;
     }
 }
