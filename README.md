@@ -12,3 +12,5 @@ Reflections:
   Alex W - Learned a bit of the GitHub basics working on this project.  Creating and cloning repositories, readme, commit all and push, branches, checkouts, pull requests, reviewers, merges, issues and assigning, and merge conflict resolution.  And most of all, .gitignore. 
 
   Aiden R - Learned how to work with GitHub within Visual Studio. Also forced to learn how to manage multiple git accounts.
+
+Tyler P - This was a first time experience for GitHub, so it was very eyeopening on how projects are done in a group setting remotely. All of this was new to me, although it took some time how to utilize the funtions provided by Github, I learened new essential skills for team work on projects that will help in the future.
