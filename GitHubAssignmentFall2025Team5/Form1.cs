@@ -55,5 +55,11 @@ namespace GitHubAssignmentFall2025Team5
             // i hate typing out my name so let's at least minimize how many times it has to be done
             listBox1.Items.Add("The " + ((Button)sender).Text + " button was clicked");
         }
+
+        private void tylerPButton_Click(object sender, EventArgs e)
+        {
+            listBoxT.Items.Add("The Tyler P button was clicked!"); // when button is clicked string is
+                                                                   // displayed in list box.
+        }
     }
 }
