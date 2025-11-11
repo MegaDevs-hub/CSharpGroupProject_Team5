@@ -58,10 +58,9 @@ namespace GitHubAssignmentFall2025Team5
 
         private void tylerButton_Click(object sender, EventArgs e)
         {
-            String name; //  declare varible to hold string text
-                         
-            name = "The Tyler P button was clicked!"; //  intialize variable with desired message
-            tylerListBox.Items.Add(name); // add string to listbox to display text
+            String name;
+            name = "The Tyler P button was clicked!";
+            tylerListBox.Items.Add(name);
         }
     }
 }

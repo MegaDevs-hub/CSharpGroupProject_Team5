@@ -140,7 +140,7 @@
             // 
             tylerListBox.FormattingEnabled = true;
             tylerListBox.ItemHeight = 15;
-            tylerListBox.Location = new Point(13, 285);
+            tylerListBox.Location = new Point(12, 287);
             tylerListBox.Name = "tylerListBox";
             tylerListBox.Size = new Size(227, 19);
             tylerListBox.TabIndex = 8;
@@ -149,7 +149,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(475, 595);
+            ClientSize = new Size(251, 318);
             Controls.Add(tylerListBox);
             Controls.Add(tylerButton);
             Controls.Add(listBox1);
