@@ -56,10 +56,11 @@ namespace GitHubAssignmentFall2025Team5
             listBox1.Items.Add("The " + ((Button)sender).Text + " button was clicked");
         }
 
-        private void tylerPButton_Click(object sender, EventArgs e)
+        private void tylerButton_Click(object sender, EventArgs e)
         {
-            listBoxT.Items.Add("The Tyler P button was clicked!"); // when button is clicked string is
-                                                                   // displayed in list box.
+            String name;
+            name = "The Tyler P button was clicked!";
+            tylerListBox.Items.Add(name);
         }
     }
 }

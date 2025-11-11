@@ -37,8 +37,8 @@
             nameListBox = new ListBox();
             btnAiden = new Button();
             listBox1 = new ListBox();
-            tylerPButton = new Button();
-            listBoxT = new ListBox();
+            tylerButton = new Button();
+            tylerListBox = new ListBox();
             SuspendLayout();
             // 
             // inputTextBox
@@ -126,32 +126,32 @@
             listBox1.Size = new Size(227, 19);
             listBox1.TabIndex = 6;
             // 
-            // tylerPButton
+            // tylerButton
             // 
-            tylerPButton.Location = new Point(11, 257);
-            tylerPButton.Name = "tylerPButton";
-            tylerPButton.Size = new Size(227, 23);
-            tylerPButton.TabIndex = 7;
-            tylerPButton.Text = "Tyler P";
-            tylerPButton.UseVisualStyleBackColor = true;
-            tylerPButton.Click += tylerPButton_Click;
+            tylerButton.Location = new Point(12, 258);
+            tylerButton.Name = "tylerButton";
+            tylerButton.Size = new Size(227, 23);
+            tylerButton.TabIndex = 7;
+            tylerButton.Text = "Tyler P";
+            tylerButton.UseVisualStyleBackColor = true;
+            tylerButton.Click += tylerButton_Click;
             // 
-            // listBoxT
+            // tylerListBox
             // 
-            listBoxT.FormattingEnabled = true;
-            listBoxT.ItemHeight = 15;
-            listBoxT.Location = new Point(10, 285);
-            listBoxT.Name = "listBoxT";
-            listBoxT.Size = new Size(227, 19);
-            listBoxT.TabIndex = 8;
+            tylerListBox.FormattingEnabled = true;
+            tylerListBox.ItemHeight = 15;
+            tylerListBox.Location = new Point(12, 287);
+            tylerListBox.Name = "tylerListBox";
+            tylerListBox.Size = new Size(227, 19);
+            tylerListBox.TabIndex = 8;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(369, 478);
-            Controls.Add(listBoxT);
-            Controls.Add(tylerPButton);
+            ClientSize = new Size(251, 318);
+            Controls.Add(tylerListBox);
+            Controls.Add(tylerButton);
             Controls.Add(listBox1);
             Controls.Add(btnAiden);
             Controls.Add(nameListBox);
@@ -178,7 +178,7 @@
         private ListBox nameListBox;
         private Button btnAiden;
         private ListBox listBox1;
-        private Button tylerPButton;
-        private ListBox listBoxT;
+        private Button tylerButton;
+        private ListBox tylerListBox;
     }
 }
